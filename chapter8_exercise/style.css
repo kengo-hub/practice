@@ -18,7 +18,7 @@
 }
 
 .box-a{
-  width:960px;
+  width: 960px;
   display:flex;
   flex-wrap:wrap;
   margin-bottom:50px
@@ -27,7 +27,6 @@
 .box{
   height:200px;
   width:30%;
-  margin-right:5%;
   margin-bottom:40px;
 }
 .box{
@@ -35,6 +34,12 @@
 }
 .box:nth-child(4n+1){
   background-color:orange;
+}
+.box:nth-child(3n+1){
+  margin-right:5%;
+}
+.box:nth-child(3n+2){
+  margin-right:5%;
 }
 
 
