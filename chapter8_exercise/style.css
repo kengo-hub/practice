@@ -21,7 +21,8 @@
   width: 960px;
   display:flex;
   flex-wrap:wrap;
-  margin-bottom:50px
+  margin-bottom:50px;
+  margin:0 auto;
 
 }
 .box{
@@ -35,12 +36,10 @@
 .box:nth-child(4n+1){
   background-color:orange;
 }
-.box:nth-child(3n+1){
+.box:not(:nth-child(3n)){
   margin-right:5%;
 }
-.box:nth-child(3n+2){
-  margin-right:5%;
-}
+
 
 
 
