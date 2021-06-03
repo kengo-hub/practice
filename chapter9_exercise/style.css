@@ -16,24 +16,21 @@
 }
 main{
   display:flex;
-  justify-content: center;
+  margin:50px auto;
+  width:960px;
 }
 .service{
   width:300px;
-  margin-top: 50px;
-  margin-bottom:50px;
   background-color: #eeeeee;
-  padding-top: 175px;
+  padding: 10px;
   position: relative;
   
 }
 
 .service2{
   width:300px;
-  margin-top: 50px;
-  margin-bottom:50px;
   background-color: #eeeeee;
-  padding-top: 175px;
+  padding:10px;
   position: relative;
   margin-right:30px;
   margin-left:30px;
@@ -41,10 +38,8 @@ main{
 
 .service3{
   width:300px;
-  margin-top: 50px;
-  margin-bottom:50px;
   background-color: #eeeeee;
-  padding-top: 175px;
+  padding:10px;
   position: relative;
   
 }
@@ -56,38 +51,69 @@ span{
 }
 
 .img{
-  position: absolute;
   top:10px;
   right:10px;
   width: 280px;
   height:150px;
   background-image:url(img/flow01.png);
   background-size:cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .img2{
-  position: absolute;
   top:10px;
   right:10px;
   width: 280px;
   height:150px;
   background-image:url(img/flow02.png);
   background-size:cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .img3{
-  position: absolute;
   top:10px;
   right:10px;
   width: 280px;
   height:150px;
   background-image:url(img/flow03.png);
   background-size:cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .title{
+  margin-top:15px;
   margin-bottom:5px;
+}
+
+@media screen and (max-width:768px){
+
+main{
+  display:block;
+  width:100%;
+  
+}
+.service{
+  width:90%;
+  margin:0 auto;
+  margin-bottom:20px;
+}
+.service2{
+  width:90%;
+  margin:0 auto;
+  margin-bottom:20px;
+}
+.service3{
+  width:90%;
+  margin:0 auto;
+}
+.img{
+  width:auto;
+}
+.img2{
+  width:auto;
+}.img3{
+  width:auto;
+}
+
+
 }
